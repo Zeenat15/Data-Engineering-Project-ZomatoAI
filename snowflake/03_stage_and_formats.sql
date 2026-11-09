@@ -27,7 +27,7 @@ CREATE OR REPLACE STAGE ZOMATO.RAW.ZOMATO_RAW_STAGE
   URL = 's3://zomato-aws-project-zeebucket1/raw/'
   FILE_FORMAT = ZOMATO.RAW.CSV_FMT;
 
-
+--we used this in zomato ai project
 CREATE OR REPLACE STAGE ZOMATO.RAW.ZOMATO_RAW_STAGE 
   URL = 's3://zomato-aws-project-zeebucket1/raw/' 
   CREDENTIALS = (
