@@ -1,0 +1,13 @@
+zomato:
+  outputs:
+    dev:
+      account: XSXFAVN-VE78063
+      database: ZOMATO
+      password: JinieSimant2025
+      role: DBT_ROLE
+      schema: STAGING
+      threads: 8
+      type: snowflake
+      user: JINIE15
+      warehouse: ZOMATO_WH
+  target: dev

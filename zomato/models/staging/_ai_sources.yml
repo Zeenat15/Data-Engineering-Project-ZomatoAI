@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+  - name: ai
+    database: ZOMATO
+    schema: AI
+    description: "LLM-enriched tables produced by ai/enrich_reviews.py using a local Ollama model."
+    tables:
+      - name: review_enriched
+        description: "Per-review sentiment, topic, and key issue generated using a locally hosted Ollama LLM."
